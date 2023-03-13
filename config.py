@@ -1,4 +1,3 @@
-import secrets
+from dotenv import load_dotenv
 
-hex_string = secrets.token_hex(4)
-print(hex_string)
+load_dotenv()
